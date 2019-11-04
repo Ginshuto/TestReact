@@ -1,0 +1,46 @@
+.app {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+h1 {
+  background-color: #282c34;
+  color: white;
+  margin: 0;
+  padding: 15px;
+  text-align: center;
+
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.none {
+  padding: 20px 50px;
+
+}
+
+.blue {
+  background-color: blue;
+  padding: 20px 50px;
+
+}
+
+.orange {
+  background-color: orange;
+  padding: 20px 50px;
+}
+
+.red {
+  background-color: red;
+  padding: 20px 50px;
+}
