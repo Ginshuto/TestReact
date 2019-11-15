@@ -1,17 +1,17 @@
 import React, { Component, useState, useEffect } from "react";
 import "../App.css";
 
-export default function TimerTwo() {
-  const [seconds, setSeconds] = useState(45);
+export default function Timer(props) {
+  const [seconds, setSeconds] = useState(props.time);
   const [isActive, setIsActive] = useState(true);
-  const [Class, setClass] = useState("none");
+  const [Class, setClass] = useState("blue");
 
   function toggle() {
     setIsActive(!isActive);
   }
 
   function reset() {
-    setSeconds(40);
+    setSeconds(props.time);
     setIsActive(false);
   }
 
